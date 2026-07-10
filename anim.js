@@ -71,11 +71,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (btnCopiar) {
         btnCopiar.addEventListener('click', function() {
             const datos = `
-Nombre: Anatolli Devorak Qwerty
-Empresa: Duckling Productions / Ganzo Island
-Teléfono: +52 951 123 2222
-Correo: contacto@duckling.com
-Web: https://duckling.com
+Nombre: Dorian Martinez Lopez
+Empresa: Dorian Martinez
+Teléfono: +52 951 321 5657
+Correo: dorian34ml@institutosanpablo.edu.mx
+Web: https://dorian34ml-sys.github.io/dorianmartinez/
             `.trim();
 
             // Usar clipboard API con fallback
@@ -129,7 +129,7 @@ Web: https://duckling.com
             // destinatario: contacto@duckling.com
             // asunto: Solicitud de información desde la web
             // cuerpo: nombre, correo y mensaje
-            const destinatario = 'contacto@duckling.com';
+            const destinatario = 'dorian34ml@institutosanpablo.edu.mx';
             const asunto = encodeURIComponent('Solicitud de información desde la web');
             const cuerpo = encodeURIComponent(
                 `Nombre: ${nombre}\nCorreo: ${correo}\n\nMensaje:\n${mensaje}`
